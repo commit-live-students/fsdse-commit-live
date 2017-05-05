@@ -15,7 +15,6 @@ After this lesson, you'll be able to
 
 ## Agenda
 
-* Working with Data
 * Why Commit.Live ?
 * Comit.Live Platform
 * Comit.Live Web Application
@@ -26,8 +25,4 @@ After this lesson, you'll be able to
 ## Slides
 @[gslides](1gEb00r1CyjxWignP0JC84UArH7qny05p-CQhMdBcu2o)
 
-## Assignments
-* [Assignment 1](https://github.com/commit-live-students/fsdse-techbasics-assignment-1)
-
-
-
+## Practice Exercise
