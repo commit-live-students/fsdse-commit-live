@@ -30,7 +30,4 @@ After this lesson, you'll be able to
 * [Assignment 1](https://github.com/commit-live-students/fsdse-techbasics-assignment-1)
 
 
-### Post Reads
-* [Linux apt-get Command](https://www.computerhope.com/unix/apt-get.htm)
-* [Advanced Packaging Tool](https://en.wikipedia.org/wiki/Advanced_Packaging_Tool)
 
