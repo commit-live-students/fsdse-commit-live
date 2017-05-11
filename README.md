@@ -33,10 +33,12 @@ After this lesson, you'll be able to
         
 * Run above command in Commit.Live IDE terminal
 * Let's quickly go through what we have in repo
- - data - Contains dummy data set
- - test - Contains test cases
- - build_model.py - File which we are goign to run and test
- - README.md - Read me file
+
+         data - Contains dummy data set
+         test - Contains test cases
+         build_model.py - File which we are goign to run and test
+         README.md - Read me file
+         
 * build_model.py tries to solve one of ML problem using two algorithms below:
     * RandomForestClassifier
     * LogisticRegression
