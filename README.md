@@ -2,7 +2,7 @@
 
 ## Lets Get Rolling - Student Pre-Read
 Before this lesson , we recommend you go through
-* [Integrated_Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment)
+* [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment)
 
 ## Learning Objectives
 
