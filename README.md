@@ -27,20 +27,20 @@ After this lesson, you'll be able to
 
 * Let's do a small excercise to see how Commit.Live web application, IDE and CLI works together
 * Navigate to web application dashboard and click on continue button under current course. This will take you to lesson page.
-* To open this repo inside Commit.Live IDE click on `Open in app` button on lesson page and copy the open command. Which will look like below 
+* To open this repo inside Commit.Live IDE click on `Open in app` button on lesson page and copy the open command which will look like below 
 
         clive open fsdse-commit-live
         
-* Run this command in Commit.Live IDE terminal
+* Run above command in Commit.Live IDE terminal
 * Let's quickly go through what we have in repo
-        * data - Contains dummy data set
-        * test - Contains test cases
-        * build_model.py - File which we are goign to run
-        * README.md - Read me file
+ - data - Contains dummy data set
+ - test - Contains test cases
+ - build_model.py - File which we are goign to run and test
+ - README.md - Read me file
 * build_model.py tries to solve one of ML problem using two algorithms below:
     * RandomForestClassifier
     * LogisticRegression
-* We will first run test cases present in test folder and see what it says.Open terminal and run test command
+* We will first run test cases present in test folder and see test case outpu.Open terminal and run test command
         
         clive test
 
