@@ -23,6 +23,12 @@ After this lesson, you'll be able to
 ## Slides
 @[gslides](1gEb00r1CyjxWignP0JC84UArH7qny05p-CQhMdBcu2o)
 
+## Download 
+* [Download for Linux](https://s3.ap-south-1.amazonaws.com/commit.live.ide/CommitLive-amd64.deb)
+  * If Atom is already installed this will replace your Atom, please save your settings if you have any
+  * To install use command `sudo dpkg -I <downloaded-file-path>` 
+* [Download for MacOS X](https://s3.ap-south-1.amazonaws.com/commit.live.ide/CommitLive.dmg)
+
 ## Practice Exercise
 
 * Let's do a small excercise to see how Commit.Live web application, IDE and CLI works together
