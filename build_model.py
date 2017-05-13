@@ -18,4 +18,4 @@ def buildLogisticRegression():
     creditClf.fit(X=X_train, y=y_train)
     return creditClf
 
-build = buildRandomForestClassifier
+build = buildLogisticRegression
