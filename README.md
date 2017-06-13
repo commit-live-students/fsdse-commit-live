@@ -42,8 +42,8 @@ After this lesson, you'll be able to
 
          data - Contains dummy data set
          test - Contains test cases
-         build_model.py - File which we are goign to run and test
-         README.md - Read me file
+         build_model.py - File which we are going to run and test
+         README.md - Readme file
          
 * build_model.py tries to solve one of ML problem using two algorithms below:
     * RandomForestClassifier
