@@ -1,7 +1,7 @@
 ![GitHub Logo](https://s3.ap-south-1.amazonaws.com/greyatom-social/logo.png)
 
 ## Lets Get Rolling - Student Pre-Read
-Before this lesson , we recommend you go through
+Before this lesson, we recommend you go through
 * [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment)
 
 ## Learning Objectives
@@ -31,7 +31,7 @@ After this lesson, you'll be able to
 
 ## Practice Exercise
 
-* Let's do a small excercise to see how Commit.Live web application, IDE and CLI works together
+* Let's do a small exercise to see how Commit.Live web application, IDE and CLI works together
 * Navigate to web application dashboard and click on continue button under current course. This will take you to lesson page.
 * To open this repo inside Commit.Live IDE click on `Open in app` button on lesson page and copy the open command which will look like below 
 
@@ -48,11 +48,11 @@ After this lesson, you'll be able to
 * build_model.py tries to solve one of ML problem using two algorithms below:
     * RandomForestClassifier
     * LogisticRegression
-* We will first run test cases present in test folder and see test case outpu.Open terminal and run test command
+* We will first run test cases present in the test folder and see test case output.Open terminal and run test command
         
         clive test
 
-* This wil run test cases against build_model.py file. Yout test case will fail saying you can improve accuracy even more
+* This will run test cases against the build_model.py file. Your test case will fail ans say you can improve accuracy even more
 * Now open build_model.py and change build method to buildLogisticRegression. You last line in build_model.py should look like below:
 
           build = buildLogisticRegression
