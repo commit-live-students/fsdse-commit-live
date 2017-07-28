@@ -17,5 +17,5 @@ def buildLogisticRegression():
     creditClf = LogisticRegression(random_state=1)
     creditClf.fit(X=X_train, y=y_train)
     return creditClf
-
+#asd
 build = buildLogisticRegression
