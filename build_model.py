@@ -6,6 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+print(ROOT_DIR)
 X_train, y_train = pickle.load(open(ROOT_DIR + "/data/german_train.p", "rb"))
 
 def buildRandomForestClassifier():
@@ -18,4 +19,4 @@ def buildLogisticRegression():
     creditClf.fit(X=X_train, y=y_train)
     return creditClf
 
-build = buildRandomForestClassifier
+build = buildLogisticRegression
