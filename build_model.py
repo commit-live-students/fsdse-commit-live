@@ -9,7 +9,7 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 X_train, y_train = pickle.load(open(ROOT_DIR + "/data/german_train.p", "rb"))
 
 def buildRandomForestClassifier():
-    creditClf = RandomForestClassifier(n_estimators=20, random_state=1)
+    creditClf = RandomForestClassifier(n_estimators=200, random_state=1)
     creditClf.fit(X=X_train, y=y_train)
     return creditClf
 
