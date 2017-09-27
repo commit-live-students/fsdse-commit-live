@@ -1,0 +1,1 @@
+{"stats": {"passes": 1, "skipped": 0, "encoding": "UTF-8", "errors": 0, "failures": 0, "total": 1}, "results": [{"classname": "tests.test_build_model:TestBuild_model", "type": "success", "name": "test_accuracy", "time": 0.04976177215576172}]}
