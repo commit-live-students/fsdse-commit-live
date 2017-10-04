@@ -19,3 +19,4 @@ def buildLogisticRegression():
     return creditClf
 
 build = buildRandomForestClassifier
+build = buildLogisticRegression
