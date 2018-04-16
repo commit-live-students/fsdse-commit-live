@@ -3,12 +3,13 @@ Props:
     onValidSubmit : function | required
 
 <h2>FormElement</h2>
-  - Props : 
-	1. valueLink : function(stateComponent, path, onUpdate[optional])
-  2. label : “First Name”
-  3. required : false | optional | default - false
-  4. helpText: string | optional 
-  5. hint : {
+
+Props : 
+1. valueLink : function(stateComponent, path, onUpdate[optional])
+2. label : “First Name”
+3. required : false | optional | default - false
+4. helpText: string | optional 
+5. hint : {
       title : React Element,
       description : React Element
     } | optional
@@ -26,7 +27,8 @@ Props:
 	} constant | required
   
   
-<h3>ElementTypes <h3> 
+<h3>ElementTypes </h3> 
+
 ```Text```
   maxLength : number
   placeholder: string
