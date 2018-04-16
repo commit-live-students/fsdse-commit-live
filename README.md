@@ -1,63 +1,104 @@
-![GitHub Logo](https://s3.ap-south-1.amazonaws.com/greyatom-social/logo.png)
+<h2>Form</h2>
+Props: 
+    onValidSubmit : function | required
 
-## Let's Get Rolling - Student Pre-Read
-Before this lesson, we recommend you go through
-* [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment)
+<h2>FormElement</h2>
+  - Props : 
+	1. valueLink : function(stateComponent, path, onUpdate[optional])
+  2. label : “First Name”
+  3. required : false | optional | default - false
+  4. helpText: string | optional 
+  5. hint : {
+      title : React Element,
+      description : React Element
+    } | optional
+  6. validations : [{
+      type: enum constant[error | warning] | default: error
+      validation: function(value: anything) => returns a boolean,
+      message: string | required
+    }]
+  7. control : {
+      className : ‘’ | optional
+		  type: ElementType,
+      settings : {
+        // all settings will act the props to material-ui/core element
+		  }
+	} constant | required
+  
+  
+<h3>ElementTypes <h3> 
+```Text```
+  maxLength : number
+  placeholder: string
+  endAdornment: ReactElement
+  startAdornment: ReactElement
+  type: text|password
+  
+```TexArea```
+  maxLength : number
+  rows: number
+  placeholder: string
 
-## Learning Objectives
+`RadioGroup`
+options: [{
+key: string
+label: (ReactElement)/String,
+}],
+columns: number
 
-After this lesson, you'll be able to
-* Use Commit.Live Web App
-* Use Commit.Live IDE
-* Use Commit.Live CLI
+`CheckboxGroup` => (value will always be an array)
+options: [{
+key: string
+label: (ReactElement)/String,
+}],
+columns: number
 
-## Agenda
+`Select` => (if multiple value will always be an array)
+options: [{
+key: string
+label: (ReactElement),
+labelString: string | optional (Required if label is not string)
+}],
+multiple : boolean
 
-* Why Commit.Live ?
-* Comit.Live Platform
-* Comit.Live Web Application
-* Comit.Live IDE 
-* Comit.Live Command Line (CLI) 
-* Practice Exercise
+`SearchableSelect` => (if multiple value will always be an array)
+options: [{
+key: string
+label: (ReactElement),
+labelString: string | optional (Required if label is not string)
+}],
+multi: boolean,
 
-## Slides
-@[gslides](1gEb00r1CyjxWignP0JC84UArH7qny05p-CQhMdBcu2o)
+`Switch` => (always returns boolean value)
+onLabel : ReactElement
+offLabel : ReactElement
 
-## Download 
-* [Download for Linux](https://s3.ap-south-1.amazonaws.com/commit.live.ide/CommitLive-amd64.deb)
-  * If Atom is already installed this will replace your Atom, please save your settings if you have any
-  * To install use command `sudo dpkg -I <downloaded-file-path>` 
-* [Download for MacOS X](https://s3.ap-south-1.amazonaws.com/commit.live.ide/CommitLive.dmg)
+`DateTimePicker`
+format : string
+minDate : timestamp,
+maxDate : timestamp
 
-## Practice Exercise
+`DatePicker`
+format : string
+minDate : timestamp,
+maxDate : timestamp
 
-* Let's do a small exercise to see how Commit.Live web application, IDE and CLI works together
-* Navigate to web application dashboard and click on continue button under current course. This will take you to lesson page.
-* To open this repo inside Commit.Live IDE click on `Open in app` button on lesson page and copy the open command which will look like below 
+`FileUpload`
+maxFiles : number | optional | defaults to 1
+fileFormats : string | required
 
-        clive open fsdse-commit-live
-        
-* Run above command in Commit.Live IDE terminal
-* Let's quickly go through what we have in repo
-
-         data - Contains dummy data set
-         test - Contains test cases
-         build_model.py - File which we are going to run and test
-         README.md - Readme file
-         
-* build_model.py tries to solve one of ML problem using two algorithms below:
-    * RandomForestClassifier
-    * LogisticRegression
-* We will first run test cases present in the test folder and see test case output.Open terminal and run test command
-        
-        clive test
-
-* This will run test cases against the build_model.py file. Your test case will fail ans say you can improve accuracy even more
-* Now open build_model.py and change build method to buildLogisticRegression. You last line in build_model.py should look like below:
-
-          build = buildLogisticRegression
-          
-* Now again run test command again.This time your test case will pass
-* To submit PR and changes to repo use below command:
-
-        clive submit
+`AutoComplete` => (if multiple value will always be an array)
+source : function (query){
+returns searchResult: {
+total: number,
+entities: [{}],
+objects:{}
+}
+},
+renderer : function(entity, objects){
+returns React Element/String
+}
+labelRenderrer: function(entity, objects){
+returns React Element/String
+}
+multiple : boolean
